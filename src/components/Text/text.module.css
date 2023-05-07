@@ -1,0 +1,64 @@
+.h2 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 28px;
+  font-weight: 550;
+  font-style: normal;
+  line-height: 36px;
+  color: var(--darkgrey);
+}
+
+.p {
+  display: flex;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  color: var(--lightgrey);
+}
+
+.p_green {
+  font-weight: 500;
+  color: var(--green);
+}
+
+.p_red {
+  font-weight: 500;
+  color: var(--red);
+}
+
+.p_card {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 32px;
+  color: var(--white);
+}
+
+.p_blurText {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: var(--white);
+}
+
+.p_footer {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  color: var(--lightgrey);
+}
+
+.p_subtitle {
+  font-weight: 500;
+  color: var(--darkgrey);
+}
+
+.p_textInstance {
+  color: var(--darkgrey);
+}

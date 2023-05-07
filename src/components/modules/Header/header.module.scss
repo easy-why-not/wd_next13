@@ -1,0 +1,14 @@
+.main {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  height: var(--header-height);
+  padding: 0 24px;
+
+  background-color: var(--white);
+  box-shadow: 0 0 18px rgb(138 150 168 / 25%);
+}

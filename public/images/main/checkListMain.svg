@@ -1,0 +1,18 @@
+<svg width="214" height="153" viewBox="0 0 214 153" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="8" width="206" height="145" rx="9" fill="#E6EEFF"/>
+<rect x="1.2" y="9.2" width="203.6" height="142.6" rx="7.8" stroke="#4B689B" stroke-width="2.4"/>
+<line x1="2" y1="18.8" x2="205" y2="18.8" stroke="#4B689B" stroke-width="2.4"/>
+<rect x="44" y="57" width="113" height="51" fill="white"/>
+<rect x="45" y="45" width="112" height="3" fill="#4B689B"/>
+<rect x="45" y="57" width="112" height="3" fill="#4B689B"/>
+<rect x="45" y="69" width="112" height="3" fill="#4B689B"/>
+<rect x="45" y="81" width="84" height="3" fill="#4B689B"/>
+<rect x="45" y="93" width="84" height="3" fill="#4B689B"/>
+<rect x="45" y="105" width="84" height="3" fill="#4B689B"/>
+<rect x="47" y="45" width="63" height="3" transform="rotate(90 47 45)" fill="#4B689B"/>
+<rect x="157" y="45" width="63" height="3" transform="rotate(90 157 45)" fill="#4B689B"/>
+<rect x="84" y="45" width="63" height="3" transform="rotate(90 84 45)" fill="#4B689B"/>
+<rect x="121" y="45" width="63" height="3" transform="rotate(90 121 45)" fill="#4B689B"/>
+<rect x="130.5" y="78.5" width="41" height="41" rx="2.5" fill="#E6EEFF" stroke="#4B689B" stroke-width="3"/>
+<path d="M148.424 107.4C149.203 108.224 150.483 108.195 151.234 107.341L163.532 93.2132C164.2 92.4185 164.144 91.2118 163.421 90.5054C162.697 89.799 161.529 89.8284 160.861 90.6231L149.759 103.397L143.082 96.3331C142.386 95.5973 141.217 95.5973 140.522 96.3331C139.826 97.0689 139.826 98.3051 140.522 99.0409L148.424 107.4Z" fill="#2ABB5B"/>
+</svg>

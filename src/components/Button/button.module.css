@@ -1,0 +1,48 @@
+.button {
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  height: 40px;
+  margin: 0;
+  padding: 8px 24px;
+
+  background: var(--blue-dark);
+  border: 1px solid var(--blue-dark);
+  border-radius: 4px;
+}
+
+.button__link {
+  display: flex;
+  text-decoration: none;
+}
+
+.button__text {
+  overflow: hidden;
+
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+  color: var(--white);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.button__text_ghost {
+  color: var(--darkgrey);
+  background: var(--white);
+}
+
+.button__text_large {
+  width: 100%;
+}
+
+.button_disabled {
+  cursor: not-allowed;
+  background: var(--disable);
+  border: none;
+}
