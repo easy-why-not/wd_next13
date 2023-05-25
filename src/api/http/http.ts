@@ -1,4 +1,6 @@
-import { HttpError } from '@/api/http-error';
+import { parseCookies } from 'nookies';
+
+import { HttpError } from '@/api/http/http-error';
 
 interface IError extends Error {
   status: number;
@@ -6,7 +8,15 @@ interface IError extends Error {
 }
 
 const http = async <T>(path: string, config: RequestInit): Promise<T> => {
-  const request = new Request(path, config);
+  const { access } = parseCookies();
+  const request = new Request(path, {
+    credentials: 'include',
+    headers: {
+      'content-type': 'application/json',
+      Authorization: access && `WatchDog ${access}`
+    },
+    ...config
+  });
   const response: Response | IError = await fetch(request);
 
   if (!response.ok) {

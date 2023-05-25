@@ -139,3 +139,15 @@ export interface ICheckListDto {
   environmenttype: number;
   overwrite_rule: null;
 }
+
+export interface IApprovedDto {
+  recid: number;
+  datecreated: string;
+  instanceitemid: number;
+  itemid: number;
+  propertytypeid: number;
+  isactive: boolean;
+  propertyvalue: string;
+  actor: string;
+  overridedescription: string;
+}
