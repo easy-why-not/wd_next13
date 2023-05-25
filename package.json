@@ -11,32 +11,32 @@
     "prettier:fix": "prettier --write ."
   },
   "dependencies": {
-    "@types/node": "20.1.0",
-    "@types/react": "18.2.6",
-    "@types/react-dom": "18.2.4",
-    "axios": "^1.4.0",
-    "classname": "^0.0.0",
-    "eslint": "8.40.0",
-    "eslint-config-next": "13.4.1",
     "next": "13.4.1",
     "nookies": "^2.5.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.9",
-    "typescript": "5.0.4"
+    "zustand": "^4.3.8"
   },
   "devDependencies": {
+    "@types/node": "20.1.0",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
     "@typescript-eslint/eslint-plugin": "^5.59.2",
     "@typescript-eslint/parser": "^5.59.2",
     "classnames": "^2.3.2",
+    "eslint": "8.40.0",
+    "eslint-config-next": "13.4.1",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "husky": "^8.0.0",
+    "immer": "^10.0.2",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "stylelint": "^15.6.1",
     "stylelint-config-clean-order": "^5.0.1",
-    "stylelint-config-standard": "^33.0.0"
+    "stylelint-config-standard": "^33.0.0",
+    "typescript": "5.0.4"
   }
 }

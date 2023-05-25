@@ -1,0 +1,64 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin-top: 20px;
+}
+
+.wrapper__input {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 16px;
+  color: var(--neutral50);
+}
+
+.label {
+  margin: 12px 0 8px;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 352px;
+  height: 32px;
+  margin: 0;
+  padding: 6px 26px 6px 12px;
+}
+
+.errors__wrapper {
+  height: 18px;
+}
+
+.errors {
+  margin: 0;
+  padding: 4px 0 0;
+
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 16px;
+  color: var(--errors);
+}
+
+.errors__wrapper_center {
+  align-self: center;
+}
+
+.button {
+  margin-top: 32px;
+}
+
+.password_icon {
+  cursor: pointer;
+  position: absolute;
+  top: 42px;
+  right: 6px;
+}

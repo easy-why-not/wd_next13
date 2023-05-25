@@ -1,21 +1,23 @@
 import { ReactNode } from 'react';
 
-import { Footer, Header, Navigation } from '@/src/components/modules';
+import { Footer } from '@/components/layout/footer/footer';
+import { Header } from '@/components/layout/header/header';
+import { Navigation } from '@/components/layout/navigation/navigation';
+
+import styles from './layout.module.css';
 
 export const metadata = {
   title: 'WatchDog',
   description: 'Приложение WatchDog'
 };
 
-const ContentLayout = ({ children }: { children: ReactNode }) => {
+export default function ContentLayout({ children }: { children: ReactNode }) {
   return (
-    <>
+    <div className={styles.wrapper}>
       <Header />
       <Navigation />
-      {children}
+      <div className={styles.content}>{children}</div>
       <Footer />
-    </>
+    </div>
   );
-};
-
-export default ContentLayout;
+}

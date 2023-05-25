@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.pattern {
+  width: 33%;
+  background: var(--pattern-bg);
+}
+
+.wrapper__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  max-height: 640px;
+  margin: auto;
+  padding: 64px;
+
+  border-radius: 10px;
+  box-shadow: 0 1px 18px rgb(0 0 0 / 8%), 0 6px 28px rgb(0 0 0 / 12%);
+}

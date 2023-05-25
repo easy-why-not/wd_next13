@@ -1,6 +1,8 @@
 import localFont from 'next/font/local';
 import { ReactNode } from 'react';
 
+import { ProtectedRoutes } from '@/components/layout/protected-routes/protected-routes';
+
 import './globals.css';
 
 const VTBFonts = localFont({
@@ -23,10 +25,12 @@ export const metadata = {
   description: 'Приложение WatchDog'
 };
 
-const RootLayout = ({ children }: { children: ReactNode }) => {
+const RootLayout = async ({ children }: { children: ReactNode }) => {
   return (
     <html lang='ru' className={VTBFonts.className}>
-      <body>{children}</body>
+      <ProtectedRoutes>
+        <body>{children}</body>
+      </ProtectedRoutes>
     </html>
   );
 };

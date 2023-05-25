@@ -3,7 +3,7 @@ const { join } = require('path');
 const nextConfig = {
   swcMinify: true,
   env: {
-    public_api: 'http://10.226.38.149:8001/api/'
+    public_api: 'http://10.226.38.149:8001/api'
   }
 };
 

@@ -1,0 +1,13 @@
+.header {
+  position: relative;
+
+  display: grid;
+  grid-area: header;
+  align-items: center;
+  justify-content: end;
+
+  padding: 0 24px;
+
+  background-color: var(--white);
+  box-shadow: 0 0 18px rgb(138 150 168 / 25%);
+}
